@@ -1,6 +1,6 @@
 {
   "name": "hotswap-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replace a Node.js module with another module without any code changes",
   "main": "index.js",
   "bin": "bin.js",
