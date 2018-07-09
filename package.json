@@ -1,6 +1,6 @@
 {
   "name": "hotswap-module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Replace a Node.js module with another module without any code changes",
   "main": "index.js",
   "bin": "bin.js",
@@ -34,5 +34,9 @@
   "bugs": {
     "url": "https://github.com/watson/hotswap-module/issues"
   },
-  "homepage": "https://github.com/watson/hotswap-module#readme"
+  "homepage": "https://github.com/watson/hotswap-module#readme",
+  "coordinates": [
+    55.6773705,
+    12.5439088
+  ]
 }
