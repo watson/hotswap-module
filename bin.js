@@ -16,7 +16,7 @@ if (!oldModule || !newModule || !script || oldModule === '--help') {
 }
 
 // patch require
-require('./')(oldModule, require(newModule))
+require('./')(oldModule, require('import-cwd')(newModule))
 
 // run script
 require(require('path').join(process.cwd(), script))

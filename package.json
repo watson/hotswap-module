@@ -5,6 +5,7 @@
   "main": "index.js",
   "bin": "bin.js",
   "dependencies": {
+    "import-cwd": "^2.1.0",
     "require-in-the-middle": "^3.0.0"
   },
   "devDependencies": {
