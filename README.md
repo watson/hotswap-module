@@ -15,8 +15,14 @@ npm install hotswap-module --global
 
 ## CLI Usage
 
-The following two commands both run the `script.js` file and replace any
-call to `require('stream')` with `require('readable-stream')`.
+The following three commands all run the `script.js` file and replace
+any call to `require('stream')` with `require('readable-stream')`.
+
+If `hotswap-module` isn't installed, simply use npx to run it:
+
+```sh
+npx hotswap-module stream readable-stream script.js
+```
 
 If `hotswap-module` is installed globally:
 
