@@ -1,4 +1,4 @@
-# module
+# hotswap-module
 
 Replace the return value of `require('some-module')` with the return
 value of another module in any app without any code changes.
