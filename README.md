@@ -57,7 +57,7 @@ hotswap('stream', require('readable-stream'))
 ## CLI API
 
 ```sh
-hotswap-module <old-name> <new-name> <script>
+hotswap-module <old-module> <new-module> <script>
 ```
 
 ## Programmatic API
